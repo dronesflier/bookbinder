@@ -3,7 +3,6 @@ import os
 print("This script allows you to convert calibre's .epub files into a format that the Open Book understands.")
 
 
-
 def main():
     os.system("rm outputbook.txt")
     os.system("rm -r /tmp/epubconverter")
